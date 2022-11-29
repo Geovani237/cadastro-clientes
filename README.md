@@ -103,3 +103,22 @@ switch ($cor) {
         break;
 }
 ```
+
+## Estrutura de repetição
+### while - enquanto
+- Será executado o laço enquanto a condição for verdadeira.
+#### Sintaxe
+```php
+while(condição){
+    código
+}
+```
+
+#### Exemplo
+```php
+  while($contador < 10){
+        echo "contador while, loop número $contador <br>";
+        // $contador = $contador + 1
+        $contador++;
+    }
+```

@@ -83,7 +83,7 @@
             break;
     }
 
-    $dia = 8;
+    $dia = 6;
     switch ($dia){
         case '1':
             echo "Domingo";

@@ -10,10 +10,14 @@
     <h1>Repetição</h1>
     <?php
     $clientes = ["Guto", "Geovani", "Amanda", "Amateu", "Eduarda", "Maria"];
-    $contador = 0;
-    while($contador <= 5){
-        echo "$clientes[$contador]<br>";
-        $contador = $contador + 1;
+    $i = 0;
+    while($i < count($clientes)){
+        echo "$clientes[$i]<br>";
+       $i++;
+    }
+    echo "<hr>";
+    for ($i=0; $i < count($clientes); $i++){
+        echo "$clientes[$i]<br>";
     }
     ?>
 </body>
